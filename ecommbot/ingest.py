@@ -36,6 +36,8 @@ def ingestdata(status):
     return  vstore,inserted_ids
 
 
+
+
 if __name__ == '__main__':
     vstore,inserted_ids=ingestdata(None)
     print(f"inserted {len(inserted_ids)} documents") 

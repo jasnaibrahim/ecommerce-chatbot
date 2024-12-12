@@ -15,6 +15,7 @@ def data_converter():
       product_list.append(obj)
 
     
+    
     docs=[]
     for entry in product_list:
        metadata={"product_name":entry["product_name"]}
